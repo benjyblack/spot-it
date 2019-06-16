@@ -1,0 +1,12 @@
+{
+  "name": "Spot-It",
+  "version": "1.0",
+  "description": "Play songs in Spotify from various websites",
+  "content_scripts": [
+    {
+      "matches": ["https://*.ultimate-guitar.com/"],
+      "js": ["contentScript.js"]
+    }
+  ],
+  "manifest_version": 2
+}
