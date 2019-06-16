@@ -4,7 +4,7 @@
   "description": "Play songs in Spotify from various websites",
   "content_scripts": [
     {
-      "matches": ["https://*.ultimate-guitar.com/"],
+      "matches": ["https://*.ultimate-guitar.com/tab/*"],
       "js": ["contentScript.js"]
     }
   ],
