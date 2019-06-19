@@ -1,6 +1,3 @@
-import songExtractor from './songExtractor';
+import { addPlayButton } from './domWriter';
 
-const title = songExtractor.getTitle();
-const artist = songExtractor.getArtist();
-
-alert(`${title} - ${artist}`);
+addPlayButton();
