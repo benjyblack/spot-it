@@ -5,7 +5,7 @@
   "content_scripts": [
     {
       "matches": ["https://*.ultimate-guitar.com/tab/*"],
-      "js": ["contentScript.js"]
+      "js": ["dist/main.js"]
     }
   ],
   "manifest_version": 2
